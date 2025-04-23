@@ -18,6 +18,7 @@ setup(
     py_modules=['guerrillamail'],
     install_requires=[
         'requests',
+        "security==1.3.1",
     ],
     license='GPL3',
     classifiers=[
